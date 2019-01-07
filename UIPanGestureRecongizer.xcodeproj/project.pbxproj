@@ -13,6 +13,8 @@
 		6AFABC5C21E31F1F00FB7F2B /* UIPanGestureRecongizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6AFABC5A21E31F1F00FB7F2B /* UIPanGestureRecongizer.xcdatamodeld */; };
 		6AFABC5E21E31F2200FB7F2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AFABC5D21E31F2200FB7F2B /* Assets.xcassets */; };
 		6AFABC6121E31F2200FB7F2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFABC5F21E31F2200FB7F2B /* LaunchScreen.storyboard */; };
+		6AFABC6921E31FAA00FB7F2B /* Filetype-Docs-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFABC6821E31FAA00FB7F2B /* Filetype-Docs-icon.png */; };
+		6AFABC6B21E31FD500FB7F2B /* recycle-bin-bin-trash-trashcan-garbage-paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AFABC6A21E31FD400FB7F2B /* recycle-bin-bin-trash-trashcan-garbage-paper.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6AFABC5D21E31F2200FB7F2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AFABC6021E31F2200FB7F2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AFABC6221E31F2200FB7F2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AFABC6821E31FAA00FB7F2B /* Filetype-Docs-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Filetype-Docs-icon.png"; sourceTree = "<group>"; };
+		6AFABC6A21E31FD400FB7F2B /* recycle-bin-bin-trash-trashcan-garbage-paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "recycle-bin-bin-trash-trashcan-garbage-paper.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				6AFABC5521E31F1F00FB7F2B /* ViewController.swift */,
 				6AFABC5721E31F1F00FB7F2B /* Main.storyboard */,
 				6AFABC5D21E31F2200FB7F2B /* Assets.xcassets */,
+				6AFABC6821E31FAA00FB7F2B /* Filetype-Docs-icon.png */,
+				6AFABC6A21E31FD400FB7F2B /* recycle-bin-bin-trash-trashcan-garbage-paper.png */,
 				6AFABC5F21E31F2200FB7F2B /* LaunchScreen.storyboard */,
 				6AFABC6221E31F2200FB7F2B /* Info.plist */,
 				6AFABC5A21E31F1F00FB7F2B /* UIPanGestureRecongizer.xcdatamodeld */,
@@ -125,9 +131,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AFABC6B21E31FD500FB7F2B /* recycle-bin-bin-trash-trashcan-garbage-paper.png in Resources */,
 				6AFABC6121E31F2200FB7F2B /* LaunchScreen.storyboard in Resources */,
 				6AFABC5E21E31F2200FB7F2B /* Assets.xcassets in Resources */,
 				6AFABC5921E31F1F00FB7F2B /* Main.storyboard in Resources */,
+				6AFABC6921E31FAA00FB7F2B /* Filetype-Docs-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.NolanFuchs.UIPanGestureRecongizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -314,7 +322,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.NolanFuchs.UIPanGestureRecongizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
